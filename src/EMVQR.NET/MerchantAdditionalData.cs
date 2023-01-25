@@ -17,7 +17,7 @@ namespace StandardizedQR
         /// the mobile application to prompt the consumer to input a Bill Number.
         /// </value>
         [EmvSpecification(1, MaxLength = 25)]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(25)]
         public string BillNumber { get; set; }
 
@@ -29,7 +29,7 @@ namespace StandardizedQR
         /// prompt the consumer to input a Mobile Number.
         /// </value>
         [EmvSpecification(2, MaxLength = 25)]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(25)]
         public string MobileNumber { get; set; }
 
@@ -41,7 +41,7 @@ namespace StandardizedQR
         /// for the mobile application to prompt the consumer to input a Store Label.
         /// </value>
         [EmvSpecification(3, MaxLength = 25)]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(25)]
         public string StoreLabel { get; set; }
 
@@ -53,7 +53,7 @@ namespace StandardizedQR
         /// for the mobile application to prompt the consumer to input their Loyalty Number.
         /// </value>
         [EmvSpecification(4, MaxLength = 25)]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(25)]
         public string LoyaltyNumber { get; set; }
 
@@ -65,7 +65,7 @@ namespace StandardizedQR
         /// by the merchant or could be an indication for the mobile app to prompt the consumer to input a transaction Reference Label.
         /// </value>
         [EmvSpecification(5, MaxLength = 25)]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(25)]
         public string ReferenceLabel { get; set; }
 
@@ -77,7 +77,7 @@ namespace StandardizedQR
         /// indication for the mobile application to prompt the consumer to input their Customer Label.
         /// </value>
         [EmvSpecification(6, MaxLength = 25)]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(25)]
         public string CustomerLabel { get; set; }
 
@@ -89,7 +89,7 @@ namespace StandardizedQR
         /// an indication for the mobile application to prompt the consumer to input a Terminal Label.
         /// </value>
         [EmvSpecification(7, MaxLength = 25)]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(25)]
         public string TerminalLabel { get; set; }
 
@@ -101,7 +101,7 @@ namespace StandardizedQR
         /// indication for the mobile application to prompt the consumer to input a value describing the purpose of the transaction.
         /// </value>
         [EmvSpecification(8, MaxLength = 25)]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(25)]
         public string PurposeOfTransaction { get; set; }
 
@@ -114,7 +114,7 @@ namespace StandardizedQR
         /// unnecessarily prompting the consumer.
         /// </value>
         [EmvSpecification(9, MaxLength = 25)]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(25)]
         public string AdditionalConsumerDataRequest { get; set; }
     }
