@@ -4,8 +4,6 @@
 
 [![NuGet](https://img.shields.io/nuget/v/EMVQR.NET.svg?label=NuGet)](https://www.nuget.org/packages/EMVQR.NET/)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/wt1h1vpvec4mcfqc?svg=true)](https://ci.appveyor.com/project/juanroman/emvqr)
-
 EMV(R) Compliant Library built in .NET Standard for generating and parsing QR Codes. The library is based on the **EMV(R) QR Code Specification for Payment Systems: Merchant-Presented Mode _Version 1_**.
 
 ## Creating a Merchant-Presented QR
