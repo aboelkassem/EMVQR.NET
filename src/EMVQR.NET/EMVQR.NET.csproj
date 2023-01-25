@@ -6,9 +6,9 @@
     <Company>Mohamed Abdelrahman</Company>
     <Product>Standardized QR Library</Product>
     <Description>EMV(R) Compliant Library built in .NET Standard for generating and parsing QR Codes.</Description>
-    <PackageProjectUrl>https://github.com/juanroman/emvqr</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/aboelkassem/EMVQR.NET</PackageProjectUrl>
     <Copyright>Copyright (C) 2023 Mohamed Abdelrahman</Copyright>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/juanroman/emvqr/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/aboelkassem/EMVQR.NET/main/LICENSE</PackageLicenseUrl>
     <PackageReleaseNotes />
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
