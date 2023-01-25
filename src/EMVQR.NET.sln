@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMVQR.NET", "EMVQR.NET\EMVQR.NET.csproj", "{2689566D-8699-4351-B9A0-B1C00105FABF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMVQR.NET.Tests", "..\test\EMVQR.NET.Tests\EMVQR.NET.Tests.csproj", "{BEF9C4BD-5E61-428C-A999-2C91EC657203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2689566D-8699-4351-B9A0-B1C00105FABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2689566D-8699-4351-B9A0-B1C00105FABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2689566D-8699-4351-B9A0-B1C00105FABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2689566D-8699-4351-B9A0-B1C00105FABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF9C4BD-5E61-428C-A999-2C91EC657203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF9C4BD-5E61-428C-A999-2C91EC657203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF9C4BD-5E61-428C-A999-2C91EC657203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF9C4BD-5E61-428C-A999-2C91EC657203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17D1EF1E-ACED-4820-A043-F7F16B354E97}
+	EndGlobalSection
+EndGlobal
