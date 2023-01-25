@@ -82,7 +82,7 @@ namespace StandardizedQR
         /// </example>
         [EmvSpecification(56, MaxLength = 13)]
         [MaxLength(13)]
-        [RequireIso8859]
+        [RequireUTF8]
         public string ValueOfConvenienceFeeFixed { get; set; }
 
         /// <summary>
@@ -92,7 +92,7 @@ namespace StandardizedQR
         /// For example, "3.00" indicating that a convenience fee of 3% of the transaction amount will be charged, on top of the transaction amount.
         /// </example>
         [EmvSpecification(57, MaxLength = 5)]
-        [RequireIso8859]
+        [RequireUTF8]
         public string ValueOfConvenienceFeePercentage { get; set; }
 
         /// <summary>
@@ -104,7 +104,7 @@ namespace StandardizedQR
         [EmvSpecification(58, MaxLength = 2)]
         [Required]
         [MaxLength(2)]
-        [RequireIso8859]
+        [RequireUTF8]
         public string CountyCode { get; set; }
 
         /// <summary>
@@ -113,7 +113,7 @@ namespace StandardizedQR
         [EmvSpecification(59)]
         [Required]
         [MaxLength(25)]
-        [RequireIso8859]
+        [RequireUTF8]
         public string MerchantName { get; set; }
 
         /// <summary>
@@ -122,7 +122,7 @@ namespace StandardizedQR
         [EmvSpecification(60, MaxLength = 15)]
         [Required]
         [MaxLength(15)]
-        [RequireIso8859]
+        [RequireUTF8]
         public string MerchantCity { get; set; }
 
         /// <summary>
@@ -130,7 +130,7 @@ namespace StandardizedQR
         /// </summary>
         [EmvSpecification(61, MaxLength = 10)]
         [MaxLength(10)]
-        [RequireIso8859]
+        [RequireUTF8]
         public string PostalCode { get; set; }
 
         [EmvSpecification(62, IsParent = true)]
@@ -159,7 +159,7 @@ namespace StandardizedQR
         /// </summary>
         [EmvSpecification(63, MaxLength = 4)]
         [MaxLength(4)]
-        [RequireIso8859]
+        [RequireUTF8]
         public string CRC { get; internal set; }
 
         /// <summary>
@@ -245,7 +245,7 @@ namespace StandardizedQR
 
                 if (null != MerchantAccountInformation && 1 <= MerchantAccountInformation.Count)
                 {
-                    var invalidIdentifiers = MerchantAccountInformation.Keys.Count(k => k < 26 || k > 51);
+                    var invalidIdentifiers = MerchantAccountInformation.Keys.Count(k => k < 2 || k > 51);
                     if (0 < invalidIdentifiers)
                     {
                         errors.Add(new ValidationResult(LibraryResources.MerchantAccountInformationInvalidIdentifier, new string[] { nameof(MerchantAccountInformation) }));

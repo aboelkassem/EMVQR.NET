@@ -37,7 +37,7 @@ namespace StandardizedQR
         /// </summary>
         [EmvSpecification(0, MaxLength = 32)]
         [Required]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(32)]
         public string GlobalUniqueIdentifier { get; set; }
 

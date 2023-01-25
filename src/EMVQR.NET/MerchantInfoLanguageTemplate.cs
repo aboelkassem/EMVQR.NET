@@ -21,7 +21,7 @@ namespace StandardizedQR
         /// The value should represent the single language used to encode the Merchant Name—Alternate Language and the optional Merchant City—Alternate Language.
         /// </remarks>
         [EmvSpecification(0, MaxLength = 2)]
-        [RequireIso8859]
+        [RequireUTF8]
         [MaxLength(2)]
         [Required]
         public string LanguagePreference { get; set; }
