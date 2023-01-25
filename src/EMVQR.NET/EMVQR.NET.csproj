@@ -4,14 +4,26 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>aboelkassem</Authors>
     <Company>Mohamed Abdelrahman</Company>
-    <Product>Standardized QR Library</Product>
-    <Description>EMV(R) Compliant Library built in .NET Standard for generating and parsing QR Codes.</Description>
+    <Product>EMV QR Library</Product>
+    <Description>EMV QR code specification (encoder-decoder) for digital payments in .NET Standard</Description>
     <PackageProjectUrl>https://github.com/aboelkassem/EMVQR.NET</PackageProjectUrl>
     <Copyright>Copyright (C) 2023 Mohamed Abdelrahman</Copyright>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/aboelkassem/EMVQR.NET/main/LICENSE</PackageLicenseUrl>
-    <PackageReleaseNotes />
+    <PackageReleaseNotes>- Add support for UTF-8 encoding
+- Fix merchant id validation
+- Fix validation on optional fields</PackageReleaseNotes>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/aboelkassem/EMVQR.NET</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>emvqr, qr-code, emvqr.net</PackageTags>
+    <PackageLicenseFile>README.md</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
