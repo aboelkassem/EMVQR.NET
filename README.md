@@ -1,5 +1,7 @@
 # EMV Complaint QR Codes
 
+> Note: This library is a fork of [juanroman/EMVQR](https://github.com/juanroman-zz/emvqr). Since the original author is not maintaining the library anymore, I decided to fork it and maintain it myself.
+
 [![NuGet](https://img.shields.io/nuget/v/StandardizedQR.svg?label=NuGet)](https://www.nuget.org/packages/StandardizedQR/)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/wt1h1vpvec4mcfqc?svg=true)](https://ci.appveyor.com/project/juanroman/emvqr)
