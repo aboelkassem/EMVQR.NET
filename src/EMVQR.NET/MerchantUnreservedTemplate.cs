@@ -1,9 +1,9 @@
-﻿using StandardizedQR.Validation;
+﻿using EMVQR.Validation;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace StandardizedQR
+namespace EMVQR
 {
     /// <summary>
     /// For Unreserved Templates with IDs "80" to "99", the primitive data object 'Globally Unique Identifier' with ID "00" 

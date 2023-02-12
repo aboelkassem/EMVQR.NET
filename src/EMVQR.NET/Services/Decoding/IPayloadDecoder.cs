@@ -1,7 +1,7 @@
-﻿using StandardizedQR.Utils;
+﻿using EMVQR.Utils;
 using System.Collections.Generic;
 
-namespace StandardizedQR.Services.Decoding
+namespace EMVQR.Services.Decoding
 {
     internal interface IPayloadDecoder<T>
     {

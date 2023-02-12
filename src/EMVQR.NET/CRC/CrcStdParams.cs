@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
-namespace StandardizedQR.CRC
+namespace EMVQR.CRC
 {
     public enum CrcAlgorithms
     {

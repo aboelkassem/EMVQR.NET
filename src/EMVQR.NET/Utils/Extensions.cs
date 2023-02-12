@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using System.Text;
 
-namespace StandardizedQR.Utils
+namespace EMVQR.Utils
 {
     public static class Extensions
     {

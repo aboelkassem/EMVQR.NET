@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace StandardizedQR.XUnitTests
+namespace EMVQR.XUnitTests
 {
     public class MerchantPayloadFluentTests
     {

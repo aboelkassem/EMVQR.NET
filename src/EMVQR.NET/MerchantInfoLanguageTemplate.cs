@@ -1,8 +1,8 @@
-﻿using StandardizedQR.Validation;
+﻿using EMVQR.Validation;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace StandardizedQR
+namespace EMVQR
 {
     /// <summary>
     /// If this template is present, it shall contain the Language Preference (ID "00") and Merchant Name—Alternate Language (ID "01"). It may contain the Merchant City—Alternate Language(ID "02").

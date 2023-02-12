@@ -1,12 +1,12 @@
-﻿using StandardizedQR.Services.Encoding;
-using StandardizedQR.Validation;
+﻿using EMVQR.Services.Encoding;
+using EMVQR.Validation;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 
-namespace StandardizedQR
+namespace EMVQR
 {
     public partial class MerchantPayload : IValidatableObject
     {

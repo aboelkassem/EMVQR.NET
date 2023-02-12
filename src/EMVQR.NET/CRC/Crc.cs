@@ -8,7 +8,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace StandardizedQR.CRC
+namespace EMVQR.CRC
 {
     [ExcludeFromCodeCoverage]
     public class Crc : HashAlgorithm

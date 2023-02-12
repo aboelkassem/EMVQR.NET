@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace StandardizedQR.Validation
+namespace EMVQR.Validation
 {
     public sealed class RequireUTF8Attribute : ValidationAttribute
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace StandardizedQR
+namespace EMVQR
 {
     public sealed class MerchantAccountInformationDictionary : Dictionary<int, MerchantAccountInformation>, IValidatableObject
     {

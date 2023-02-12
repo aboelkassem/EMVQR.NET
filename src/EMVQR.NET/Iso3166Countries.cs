@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace StandardizedQR
+namespace EMVQR
 {
     /// <summary>
     /// List of country codes as described in ISO 3166.

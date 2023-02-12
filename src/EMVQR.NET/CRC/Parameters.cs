@@ -7,7 +7,7 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-namespace StandardizedQR.CRC
+namespace EMVQR.CRC
 {
     [ExcludeFromCodeCoverage]
     public class Parameters

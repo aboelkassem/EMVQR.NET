@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace StandardizedQR.XUnitTests
+namespace EMVQR.XUnitTests
 {
     public class MerchantPayloadUnitTests
     {

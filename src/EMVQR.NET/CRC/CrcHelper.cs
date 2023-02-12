@@ -4,7 +4,7 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace StandardizedQR.CRC
+namespace EMVQR.CRC
 {
     [ExcludeFromCodeCoverage]
     public static class CrcHelper

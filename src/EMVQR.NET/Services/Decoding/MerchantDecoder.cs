@@ -1,12 +1,12 @@
-﻿using StandardizedQR.Utils;
-using StandardizedQR.Validation;
+﻿using EMVQR.Utils;
+using EMVQR.Validation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Security;
 
-namespace StandardizedQR.Services.Decoding
+namespace EMVQR.Services.Decoding
 {
     internal class MerchantDecoder : IPayloadDecoder<MerchantPayload>
     {

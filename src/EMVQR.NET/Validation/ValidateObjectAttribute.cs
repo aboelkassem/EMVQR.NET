@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
-namespace StandardizedQR.Validation
+namespace EMVQR.Validation
 {
   [AttributeUsage(AttributeTargets.All, AllowMultiple = false)]
   /// <summary>
