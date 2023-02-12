@@ -39,7 +39,7 @@ namespace EMVQR {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("StandardizedQR.LibraryResources", typeof(LibraryResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("EMVQR.LibraryResources", typeof(LibraryResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
