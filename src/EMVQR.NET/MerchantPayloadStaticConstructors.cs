@@ -1,8 +1,8 @@
-﻿using StandardizedQR.Services.Decoding;
+﻿using EMVQR.Services.Decoding;
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace StandardizedQR
+namespace EMVQR
 {
     public partial class MerchantPayload
     {

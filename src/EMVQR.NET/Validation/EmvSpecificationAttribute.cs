@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StandardizedQR.Validation
+namespace EMVQR.Validation
 {
     /// <summary>
     /// Defines metadata for the EMV(R) Co QR Code Specification.

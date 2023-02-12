@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace StandardizedQR.XUnitTests
+namespace EMVQR.XUnitTests
 {
     internal static class AssertUtils
     {

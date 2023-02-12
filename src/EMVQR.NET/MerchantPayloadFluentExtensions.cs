@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace StandardizedQR
+namespace EMVQR
 {
     public static class MerchantPayloadFluentExtensions
     {

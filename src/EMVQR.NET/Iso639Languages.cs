@@ -1,4 +1,4 @@
-﻿namespace StandardizedQR
+﻿namespace EMVQR
 {
     /// <summary>
     /// Defines ISO 639-1 language entries

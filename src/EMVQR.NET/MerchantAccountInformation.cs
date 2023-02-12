@@ -1,9 +1,9 @@
-﻿using StandardizedQR.Validation;
+﻿using EMVQR.Validation;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace StandardizedQR
+namespace EMVQR
 {
     /// <summary>
     /// Defines attributes for the Merchant Account Information template.

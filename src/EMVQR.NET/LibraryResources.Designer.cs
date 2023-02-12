@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StandardizedQR {
+namespace EMVQR {
     using System;
     
     

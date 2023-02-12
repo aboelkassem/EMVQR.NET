@@ -1,12 +1,12 @@
-﻿using StandardizedQR.CRC;
-using StandardizedQR.Utils;
-using StandardizedQR.Validation;
+﻿using EMVQR.CRC;
+using EMVQR.Utils;
+using EMVQR.Validation;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace StandardizedQR.Services.Encoding
+namespace EMVQR.Services.Encoding
 {
     public class MerchantEncoder : IPayloadEncoding<MerchantPayload>
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace StandardizedQR.Validation
+namespace EMVQR.Validation
 {
     public class CompositeValidationResult : ValidationResult
     {

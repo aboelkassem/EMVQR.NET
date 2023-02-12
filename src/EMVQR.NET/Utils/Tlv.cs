@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace StandardizedQR.Utils
+namespace EMVQR.Utils
 {
     /// <summary>
     /// Defines a Tag/Length/Value combo

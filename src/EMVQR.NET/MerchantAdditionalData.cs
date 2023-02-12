@@ -1,7 +1,7 @@
-﻿using StandardizedQR.Validation;
+﻿using EMVQR.Validation;
 using System.ComponentModel.DataAnnotations;
 
-namespace StandardizedQR
+namespace EMVQR
 {
     /// <summary>
     /// The Additional Data Field Template includes information that may be provided by the Merchant or may be populated by 

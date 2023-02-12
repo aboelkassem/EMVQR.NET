@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace StandardizedQR
+namespace EMVQR
 {
     /// <summary>
     /// Currency Codes - ISO 4217

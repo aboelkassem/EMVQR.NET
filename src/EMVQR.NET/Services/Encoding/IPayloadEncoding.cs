@@ -1,4 +1,4 @@
-﻿namespace StandardizedQR.Services.Encoding
+﻿namespace EMVQR.Services.Encoding
 {
     public interface IPayloadEncoding<T>
     {
