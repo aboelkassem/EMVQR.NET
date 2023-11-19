@@ -1,4 +1,5 @@
-﻿using EMVQR.Services.Encoding;
+﻿using EMVQR.NET;
+using EMVQR.Services.Encoding;
 using EMVQR.Validation;
 using System;
 using System.Collections.Generic;
