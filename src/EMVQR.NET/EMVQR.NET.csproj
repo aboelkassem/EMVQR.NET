@@ -32,7 +32,7 @@
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <Compile Update="LibraryResources.Designer.cs">
       <DesignTime>True</DesignTime>
